@@ -1,4 +1,6 @@
 # Trumpify
+![Trumpify](http://www.reactiongifs.com/r/trmp.gif)
+
 
 Lately I've seen a lot of blog posts about how people leaving ruby, how slow rails is,
 how only stupid people like objects etc. Matz, DHH, Aaron? These are the same old developers
@@ -33,6 +35,8 @@ Step 2: Replace all your methods with `make_$METHOD_NAME_great_again`.
 ```ruby
 5.make_times_great_again { print "I know code. I have the best codes!" }
 ```
+
+![Trumpify](http://www.reactiongifs.com/r/trmp1.gif)
 
 ## Contributing
 
