@@ -27,7 +27,7 @@ Or install it yourself as:
 
 ## Usage
 
-Step 1: Add `require 'trumpify'` to your project.
+Step 1: Add `require 'trumpify'` to your project.  
 Step 2: Replace all your methods with `make_$METHOD_NAME_great_again`.
 
 ## Example
