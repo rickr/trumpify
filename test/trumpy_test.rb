@@ -28,4 +28,20 @@ class TrumpifyTest < Minitest::Test
     o = Object.make_new_great_again
     assert_kind_of Object, o
   end
+
+  def test_it_corrects_hillary_clinton_supporters
+    assert_output(/Crooked Hillary for President!/) { puts 'Hillary Clinton for President!' }
+  end
+
+  def test_it_corrects_bernie_sanders_supporters
+    assert_output(/Crazy Bernie for President!/) { puts 'Bernie Sanders for President!' }
+  end
+
+  def test_it_corrects_ted_cruz_supporters
+    assert_output(/Lyin' Ted for President!/) { puts 'Ted Cruz for President!' }
+  end
+
+  def test_it_corrects_marco_rubio_supporters
+    assert_output(/Little Marco for President!/) { puts 'Marco Rubio for President!' }
+  end
 end

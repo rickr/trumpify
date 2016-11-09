@@ -1,4 +1,6 @@
 # Trumpify
+![Trumpify](http://www.reactiongifs.com/r/trmp.gif)
+
 
 Lately I've seen a lot of blog posts about how people leaving ruby, how slow rails is,
 how only stupid people like objects etc. Matz, DHH, Aaron? These are the same old developers
@@ -26,13 +28,15 @@ Or install it yourself as:
 ## Usage
 
 Step 1: Add `require 'trumpify'` to your project.  
-Step 2: Replace all your methods with `make_$METHOD_NAME_great_again`.  
+Step 2: Replace all your methods with `make_$METHOD_NAME_great_again`.
 
 ## Example
 
 ```ruby
-5.make_times_great_again { print "We *love* Ruby -- it's outrageous!" }
+5.make_times_great_again { print "I know code. I have the best codes!" }
 ```
+
+![Trumpify](http://www.reactiongifs.com/r/trmp1.gif)
 
 ## Contributing
 
