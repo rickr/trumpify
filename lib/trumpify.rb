@@ -4,6 +4,10 @@ module Trumpify
       !true
     end
 
+    def president?
+      true
+    end
+
     def method_missing(methId, *args, &block)
       method_name = methId.id2name
 

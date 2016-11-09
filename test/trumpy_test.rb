@@ -3,6 +3,7 @@ require 'test_helper'
 class TrumpifyTest < Minitest::Test
   def test_the_truth
     assert liberals == false
+    assert president?
   end
 
   def test_it_works_with_chains
